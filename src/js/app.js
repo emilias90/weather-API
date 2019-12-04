@@ -1,6 +1,5 @@
 // build your app here
 
-import '../styles/main.scss';
 import { welcomeScreen } from './welcomeScreen';
 
 export function app() {
