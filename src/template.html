@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Emilia Staskowiak">
+  <meta name="descritption" content="Check the weather for chosen location">
+  <meta name="keywords" content="calendar, weather, app">
+  <title>Check the Weather</title>
+</head>
+
+  <body class="container">
+    <header class="main-header">
+      <h1 class="title">Check weather conditions for chosen location !</h1>
+    </header>
+
+    <main id="app">
+
+      <section id="welcomeScreen">
+          <div class="display">
+              <div id="searchInput" >
+                <input type="text" name="city" id="cityInput" class="btn btn-light" placeholder="Enter the chosen location ">
+              </div>
+              <div id="locationDisplay" class="display-box">
+                <p>Waiting for entering the city name.</p>
+              </div>
+              <div id="weatherDisplay" class="display-box" role="status">
+                  <p>Checking weather...</p>
+              <div class="spinner-grow text-secondary" style="width: 5rem; height: 5rem;" role="status">
+                   <span class="sr-only"></span>
+              </div>
+                  
+              </div>
+              <div class="buttons">
+                  <button class="btn btn-light" id="detailsBtn">see details</button>
+              </div>
+          </div>
+      </section>
+
+      <section id="detailsScreen">
+        <div class="display">
+          <div id="weatherDetails" class="display-box weather-details"></div>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-light" id="backToWelcome">go back</button>
+        </div>
+      </section>
+      
+    </main>
+
+    <footer class="main-footer">
+      <p><a id="AwLogo" href="https://www.accuweather.com" title="AccuWeather" target="_blank">AccuWeather</a> Copyright © 2019  Emilia Staśkowiak </p>
+    </footer>
+  </body>
+</html>
