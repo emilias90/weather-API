@@ -6,7 +6,7 @@ This was my 2nd project to complete task during Coderscamp.
 App allows us to check current weather conditions for chosen city.
 It uses AccuWeather API to fetch weather informations.
 
-##Live Demo
+## Live Demo
 
 https://emilias90.github.io/weather-API/
 
