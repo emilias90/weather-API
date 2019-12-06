@@ -3,7 +3,7 @@ import axios from 'axios';
 import { getCurrentWeather } from './getCurrentWeather';
 
 const APIKEY = 'V3vgJgyoAhEnRJXjNooxSMmlScY792ne';
-const textSearchURL = `http://dataservice.accuweather.com/locations/v1/cities/search`;
+const textSearchURL = `https://dataservice.accuweather.com/locations/v1/cities/search`;
 
 
 // Location Search based on User Input
